@@ -1,0 +1,20 @@
+﻿<p>
+	Your account was created on our web site with the following information:
+</p>
+<blockquote>
+	<p>
+		Username: <%UserName%>
+	</p>
+	<p>
+        Password: <%Password%>
+	</p>
+</blockquote>
+<p>
+	To access the system click the following link: <%Link%>
+</p>
+<p>
+	Thank you for creating an account on our site.
+</p>
+<p>
+	If you have not registered on our site please ignore this email.
+</p>

@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConfirmDeleteUserPermission" xml:space="preserve">
+    <value>return confirm('Are you sure to delete the user and his permissions?')</value>
+  </data>
+  <data name="ConfirmOverwritePermissions" xml:space="preserve">
+    <value>"The user is already registered so that the permissions will be overwritted by the selected. Are you sure to continue?"</value>
+  </data>
+  <data name="DeleteColumn" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteObjectPermissionsOk" xml:space="preserve">
+    <value>The permissions for the user were deleted.</value>
+  </data>
+  <data name="DeleteObjectPublicOk" xml:space="preserve">
+    <value>The permissions for everyone were deleted.</value>
+  </data>
+  <data name="EditColumn" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EveryoneCheckBox" xml:space="preserve">
+    <value>Everyone</value>
+  </data>
+  <data name="InsertObjectPermissionsOk" xml:space="preserve">
+    <value>The permissions selected were correctly recorded for the user </value>
+  </data>
+  <data name="InsertObjectPublicOk" xml:space="preserve">
+    <value>The permissions selected for everyone were correctly recorded.</value>
+  </data>
+  <data name="InviteUserButton" xml:space="preserve">
+    <value>Invite more users</value>
+  </data>
+  <data name="InviteUserModalTitle" xml:space="preserve">
+    <value>Invite user</value>
+  </data>
+  <data name="lblEmptyData" xml:space="preserve">
+    <value>There are not available permissions to register</value>
+  </data>
+  <data name="MessageEmptyPermissionsList" xml:space="preserve">
+    <value>The permissions list of the user cannot be empty.</value>
+  </data>
+  <data name="MessageErrorInsertObjectPermissions" xml:space="preserve">
+    <value>Failed to register user permissions.</value>
+  </data>
+  <data name="MessageErrorPermissionsByActivity" xml:space="preserve">
+    <value>Error to obtain the permissions list for the activity.</value>
+  </data>
+  <data name="MessageErrorPermissionsByKPI" xml:space="preserve">
+    <value>Error to obtain the permissions list for the KPI.</value>
+  </data>
+  <data name="MessageErrorPermissionsByObject" xml:space="preserve">
+    <value>Error to obtain the list of registered users with permissions.</value>
+  </data>
+  <data name="MessageErrorPermissionsByOrganization" xml:space="preserve">
+    <value>Error to obtain the permissions list for the organization.</value>
+  </data>
+  <data name="MessageErrorPermissionsByPerson" xml:space="preserve">
+    <value>Error to obtain the permissions list for the person.</value>
+  </data>
+  <data name="MessageErrorPermissionsByProject" xml:space="preserve">
+    <value>Error to obtain the permissions list for the project.</value>
+  </data>
+  <data name="MessageErrorUser" xml:space="preserve">
+    <value>Error to obtain the user information.</value>
+  </data>
+  <data name="MessageNullObjectTypeId" xml:space="preserve">
+    <value>The object type can not be empty or null.</value>
+  </data>
+  <data name="MessageZeroActivityId" xml:space="preserve">
+    <value>The ID of the activity can not be zero.</value>
+  </data>
+  <data name="MessageZeroKPIId" xml:space="preserve">
+    <value>The ID of the KPI can not be zero.</value>
+  </data>
+  <data name="MessageZeroObjectId" xml:space="preserve">
+    <value>The ID of the object can not be zero.</value>
+  </data>
+  <data name="MessageZeroOrganizationId" xml:space="preserve">
+    <value>The ID of the organization can not be zero.</value>
+  </data>
+  <data name="MessageZeroPersonId" xml:space="preserve">
+    <value>The ID of the person can not be zero.</value>
+  </data>
+  <data name="MessageZeroProjectId" xml:space="preserve">
+    <value>The ID of the project can not be zero.</value>
+  </data>
+  <data name="MessageZeroUserId" xml:space="preserve">
+    <value>The ID of the user can not be zero.</value>
+  </data>
+  <data name="NoDataRowsOrganization" xml:space="preserve">
+    <value>There are no users with permissions for this Organization.</value>
+  </data>
+  <data name="ObjectActionActivity" xml:space="preserve">
+    <value>Manage Activity</value>
+  </data>
+  <data name="ObjectActionCustomValidator" xml:space="preserve">
+    <value>You must select a permission.</value>
+  </data>
+  <data name="ObjectActionDefault" xml:space="preserve">
+    <value>[ Select a permission ]</value>
+  </data>
+  <data name="ObjectActionEnterData" xml:space="preserve">
+    <value>View and enter data</value>
+  </data>
+  <data name="ObjectActionKpi" xml:space="preserve">
+    <value>Manage KPI</value>
+  </data>
+  <data name="ObjectActionOwn" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="ObjectActionPeople" xml:space="preserve">
+    <value>Manage People</value>
+  </data>
+  <data name="ObjectActionProject" xml:space="preserve">
+    <value>Manage Project</value>
+  </data>
+  <data name="ObjectActionViewKpi" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="PageTitleOrganization" xml:space="preserve">
+    <value>Share Organization</value>
+  </data>
+  <data name="PermissionsColumn" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="PermissionsListLabel" xml:space="preserve">
+    <value>Permissions:</value>
+  </data>
+  <data name="ReturnOrganizationLink" xml:space="preserve">
+    <value>Back to Organizations list</value>
+  </data>
+  <data name="SaveUserButton" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="SubtitleLabelOrganization" xml:space="preserve">
+    <value>You are sharing an Organization: </value>
+  </data>
+  <data name="UserColumn" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="UserCustomValidator" xml:space="preserve">
+    <value>'You must select an User.'</value>
+  </data>
+  <data name="UserLabel" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="UserNotOwnOrganization" xml:space="preserve">
+    <value>The user is not owner, cannot share the organization with other users.</value>
+  </data>
+  <data name="UserPermissionsOrganizationLabel" xml:space="preserve">
+    <value>Users with permissions for this organization:</value>
+  </data>
+  <data name="UserTextBoxPlaceHolder" xml:space="preserve">
+    <value>[ Select an user ]</value>
+  </data>
+  <data name="VerifiyDataFail" xml:space="preserve">
+    <value>"It could not be verified if a record already exists for the user."</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="EveryoneCheckBoxKpi" xml:space="preserve">
+    <value>Everyone can see this KPI</value>
+  </data>
+  <data name="MessageErrorDeleteObjectPermissions" xml:space="preserve">
+    <value>Failed to delete user permissions.</value>
+  </data>
+  <data name="MessageErrorDeleteObjectPublic" xml:space="preserve">
+    <value>Failed to delete permissions to everyone.</value>
+  </data>
+  <data name="MessageErrorInsertObjectPublic" xml:space="preserve">
+    <value>Failed to register permissions to everyone.</value>
+  </data>
+  <data name="MessageErrorPermissionsByUser" xml:space="preserve">
+    <value>Error to obtain the permissions list for the user.</value>
+  </data>
+  <data name="MessageErrorUserName" xml:space="preserve">
+    <value>The user name can not be empty or null.</value>
+  </data>
+  <data name="MessageErrorVerifyPermissionsByUser" xml:space="preserve">
+    <value>Error to verify if the user has permission to access the form.</value>
+  </data>
+  <data name="NoDataRowsActivity" xml:space="preserve">
+    <value>There are no users with permissions for this Activity.</value>
+  </data>
+  <data name="NoDataRowsKpi" xml:space="preserve">
+    <value>There are no users with permissions for this KPI.</value>
+  </data>
+  <data name="NoDataRowsPerson" xml:space="preserve">
+    <value>There are no users with permissions for this Person.</value>
+  </data>
+  <data name="NoDataRowsProject" xml:space="preserve">
+    <value>There are no users with permissions for this Project.</value>
+  </data>
+  <data name="PageTitleActivity" xml:space="preserve">
+    <value>Share Activity</value>
+  </data>
+  <data name="PageTitleKpi" xml:space="preserve">
+    <value>Share KPI</value>
+  </data>
+  <data name="PageTitlePerson" xml:space="preserve">
+    <value>Share Person</value>
+  </data>
+  <data name="PageTitleProject" xml:space="preserve">
+    <value>Share Project</value>
+  </data>
+  <data name="ReturnActivityLink" xml:space="preserve">
+    <value>Back to Activities list</value>
+  </data>
+  <data name="ReturnKpiLink" xml:space="preserve">
+    <value>Back to KPIs list</value>
+  </data>
+  <data name="ReturnPersonLink" xml:space="preserve">
+    <value>Back to People list</value>
+  </data>
+  <data name="ReturnProjectLink" xml:space="preserve">
+    <value>Back to Projects list</value>
+  </data>
+  <data name="SubtitleLabelActivity" xml:space="preserve">
+    <value>You are sharing an Activity: </value>
+  </data>
+  <data name="SubtitleLabelKpi" xml:space="preserve">
+    <value>You are sharing a KPI: </value>
+  </data>
+  <data name="SubtitleLabelPerson" xml:space="preserve">
+    <value>You are sharing a Person: </value>
+  </data>
+  <data name="SubtitleLabelProject" xml:space="preserve">
+    <value>You are sharing a Project: </value>
+  </data>
+  <data name="UserNotOwnActivity" xml:space="preserve">
+    <value>The user is not owner, cannot share the activity with other users.</value>
+  </data>
+  <data name="UserNotOwnKpi" xml:space="preserve">
+    <value>The user is not owner, cannot share the KPI with other users.</value>
+  </data>
+  <data name="UserNotOwnPerson" xml:space="preserve">
+    <value>The user is not owner, cannot share the person with other users.</value>
+  </data>
+  <data name="UserNotOwnProject" xml:space="preserve">
+    <value>The user is not owner, cannot share the project with other users.</value>
+  </data>
+  <data name="UserPermissionsActivityLabel" xml:space="preserve">
+    <value>Users with permissions for this activity:</value>
+  </data>
+  <data name="UserPermissionsKpiLabel" xml:space="preserve">
+    <value>Users with permissions for this KPI: </value>
+  </data>
+  <data name="UserPermissionsPersonLabel" xml:space="preserve">
+    <value>Users with permissions for this person: </value>
+  </data>
+  <data name="UserPermissionsProjectLabel" xml:space="preserve">
+    <value>Users with permissions for this project:</value>
+  </data>
+  <data name="UserActualCustomValidator" xml:space="preserve">
+    <value>'You cannot register permissions to yourself.'</value>
+  </data>
+  <data name="VerifyActualUserFail" xml:space="preserve">
+    <value>"It could not be verified if the selected user is the user in session."</value>
+  </data>
+</root>
